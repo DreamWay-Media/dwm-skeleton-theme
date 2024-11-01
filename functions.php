@@ -25,6 +25,7 @@ add_action('after_setup_theme', 'skeleton_theme_setup');
 
 // Enqueue styles and scripts
 function skeleton_enqueue_assets() {
+    wp_enqueue_style('my-theme-style', get_stylesheet_uri());
     wp_enqueue_style('tailwindcss', get_template_directory_uri() . '/dist/main.css', array(), null);
 }
 add_action('wp_enqueue_scripts', 'skeleton_enqueue_assets');
