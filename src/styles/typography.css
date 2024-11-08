@@ -1,6 +1,7 @@
 @font-face {
     font-family: Irvin-Heading;
-    src: url('./src/fonts/Irvin-Heading.ttf') format('truetype'); /* TTF */
+    src: url('../fonts/Irvin-Heading.ttf') format('truetype');
+    /* TTF */
     font-weight: normal;
     font-style: normal;
 }

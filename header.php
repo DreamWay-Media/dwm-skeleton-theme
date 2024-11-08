@@ -28,6 +28,7 @@
     <?php wp_body_open(); ?>
     <!-- header -->
     <header>
+        <?php get_template_part('inc/components/button'); ?>
         <!-- Top Bar -->
         <div class="py-4 px-16 bg-primary flex justify-between text-white">
             <div class="flex gap-4">

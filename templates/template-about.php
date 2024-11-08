@@ -16,6 +16,7 @@ get_header(); ?>
         <h2 class="text-3xl font-bold mb-4">Our Mission</h2>
         <p>We specialize in building high-quality websites using Magento and WordPress to help businesses grow their online presence. Whether you're looking to redesign your site or launch an eCommerce platform, we can help you achieve your goals.</p>
     </section>
+    <?php the_content(); ?>
 </main>
 
 <?php get_footer(); ?>
