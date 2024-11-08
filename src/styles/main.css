@@ -1,7 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@tailwind typography;
-
-@import './button.css';
-@import './typography.css';
+@import "utilities";
+@import "components";
+@import "base";
+@import "typography";
